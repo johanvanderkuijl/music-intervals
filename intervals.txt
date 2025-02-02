@@ -1,0 +1,13 @@
+Prime: Wanneer twee noten dezelfde toonhoogte hebben, is er geen intervalafstand.
+Kleine Secunde: Eén halve toon. Voorbeeld: C naar Cis.
+Grote Secunde: Twee halve tonen. Voorbeeld: C naar D.
+Kleine Terts: Drie halve tonen. Voorbeeld: C naar Es.
+Grote Terts: Vier halve tonen. Voorbeeld: C naar E.
+Reine Kwart: Vijf halve tonen. Voorbeeld: C naar F.
+Tritonus (Verminderde Kwint of Overmatige Kwart): Zes halve tonen. Dit interval staat bekend om zijn dissonantie. Voorbeeld: C naar Fis of B naar F.
+Reine Kwint: Zeven halve tonen. Voorbeeld: C naar G.
+Kleine Sext: Acht halve tonen. Voorbeeld: C naar As.
+Grote Sext: Negen halve tonen. Voorbeeld: C naar A.
+Kleine Septiem: Tien halve tonen. Voorbeeld: C naar Bes.
+Grote Septiem: Elf halve tonen. Voorbeeld: C naar B.
+Octaaf: Twaalf halve tonen. Voorbeeld: C naar de volgende C.
