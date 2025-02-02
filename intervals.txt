@@ -1,4 +1,4 @@
-Prime: Wanneer twee noten dezelfde toonhoogte hebben, is er geen intervalafstand.
+Reine Prime: Wanneer twee noten dezelfde toonhoogte hebben, is er geen intervalafstand.
 Kleine Secunde: Eén halve toon. Voorbeeld: C naar Cis.
 Grote Secunde: Twee halve tonen. Voorbeeld: C naar D.
 Kleine Terts: Drie halve tonen. Voorbeeld: C naar Es.

@@ -27,7 +27,7 @@ class IntervalTrainer:
                 if any(
                     interval in name
                     for interval in [
-                        "Prime",
+                        "Reine Prime",
                         "Grote Secunde",
                         "Grote Terts",
                         "Reine Kwart",
@@ -122,7 +122,7 @@ class IntervalTrainer:
                 print(f"Helaas! Het juiste antwoord was: {interval_name}")
 
             print(f"\nScore: {score}/{total}")
-            time.sleep(3)
+            time.sleep(1)
 
         # Clean up
         if os.path.exists("interval.mid"):
