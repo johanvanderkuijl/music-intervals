@@ -23,28 +23,36 @@ class IntervalTrainer:
         with open("intervals.txt", "r", encoding="utf-8") as f:
             for line in f:
                 name, description = line.split(":", 1)
-                # Only include specific intervals
-                if any(
-                    interval in name
-                    for interval in [
-                        "Reine Prime",
-                        "Grote Secunde",
-                        "Grote Terts",
-                        "Reine Kwart",
-                        "Reine Kwint",
-                    ]
-                ):
-                    if "Prime" in name:
-                        semitones = 0
-                    elif "Grote Secunde" in name:
-                        semitones = 2
-                    elif "Grote Terts" in name:
-                        semitones = 4
-                    elif "Reine Kwart" in name:
-                        semitones = 5
-                    elif "Reine Kwint" in name:
-                        semitones = 7
-                    intervals[name.strip()] = semitones
+                # Skip Tritonus
+                if "Tritonus" in name:
+                    continue
+                
+                # Map all intervals to their semitones
+                if "Prime" in name:
+                    semitones = 0
+                elif "Kleine Secunde" in name:
+                    semitones = 1
+                elif "Grote Secunde" in name:
+                    semitones = 2
+                elif "Kleine Terts" in name:
+                    semitones = 3
+                elif "Grote Terts" in name:
+                    semitones = 4
+                elif "Reine Kwart" in name:
+                    semitones = 5
+                elif "Reine Kwint" in name:
+                    semitones = 7
+                elif "Kleine Sext" in name:
+                    semitones = 8
+                elif "Grote Sext" in name:
+                    semitones = 9
+                elif "Kleine Septiem" in name:
+                    semitones = 10
+                elif "Grote Septiem" in name:
+                    semitones = 11
+                elif "Octaaf" in name:
+                    semitones = 12
+                intervals[name.strip()] = semitones
         return intervals
 
     def _create_midi_file(self, note1: int, note2: int, filename: str = "interval.mid"):

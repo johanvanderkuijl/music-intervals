@@ -7,3 +7,7 @@ A program to practice recognizing music intervals in a quiz form, in Dutch.
 3. Open a terminal and clone this project: `git clone https://github.com/johanvanderkuijl/music-intervals.git`
 4. Enter the project directory: `cd music-intervals`
 5. Start the program: `uv run app.py`
+
+# updating
+1. `git pull`
+2. `uv run app.py`
